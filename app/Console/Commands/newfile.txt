@@ -1,0 +1,956 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="gbk" />
+        <meta name="data-spm" content="a261e"></meta>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="renderer" content="webkit" />
+		<meta name='fullhelp-v3-single' content='{"position":{"right":"3px","top":"200px"},"skin":"blue"}'/>
+        <title>alibaba</title>
+        		                    <link rel="stylesheet" href="https://astyle-src.alicdn.com/fdevlib/css/lofty/ui/combobox/2.0/back/combobox-min.css"/>
+        
+		<link rel="stylesheet" href="https://astyle-src.alicdn.com/sys/css/universal/alibar/standard-v2.css" />
+		<link rel="stylesheet" href="https://astyle-src.alicdn.com/sys/css/dpl/dpl-merge.css" />
+
+		
+    	
+		
+		 <link rel="stylesheet" href="https://assets.1688.com/app/alicrm_dpl/1.0.0/css/dpl.css"/>
+
+                <link rel="stylesheet" href="https://assets.1688.com??app/customer_memManager_new/1.0.0/view.css"/>
+
+        
+        
+        
+
+        
+        <!-- lib css -->
+        
+        <link rel="stylesheet" href="https://astyle-src.alicdn.com??pkg/@alife/refly-dpl/0.3.20/reset.css,pkg/@alife/refly-dpl/0.3.20/index.css,pkg/@alife/refly-dpl/0.3.20/util.css,pkg/@alife/refly-dialog/0.5.3/index.css"/>
+        <!-- lib css -->
+        
+		<div class="app-crm_pageControl " 
+		data-app='{&quot;name&quot;:&quot;crm_pageControl&quot;,&quot;styles&quot;:[],&quot;title&quot;:&quot;crm_pageControl&quot;}' 
+		data-view-config='{&quot;renderTemplate&quot;:&quot;raw.vm&quot;,&quot;showTitle&quot;:true}' 
+		data-edit-config='{}' 
+		>
+	
+																																																					<link rel="stylesheet" href="https://assets.1688.com/??css/export/lib.css,css/export/site.css,css/core/layout-990.css,app/customer_memManager_new/1.0.0/view.css" />			</div>
+
+		<!-- 锟酵伙拷锟斤拷系锟斤拷锟斤拷平台锟斤拷锟叫诧拷锟斤拷-->
+		<style>
+            .layout-s5m0 .grid-sub {
+				margin-left:-100%;
+				width: 170px;
+            }
+			
+			.layout-s5m0 .main-wrap {
+				margin-left:171px;
+				border:1px solid #DEDEDE;
+				padding:10px;
+				min-height: 580px;
+				background-color: #fff;
+			}
+			
+			.layout-m0 .main-wrap {
+				border:1px solid #DEDEDE;
+				padding:10px;
+				background-color: #fff;
+			}
+			
+			.segment-box {
+				padding: 0px 0px 6px 0px;
+			}
+			
+			html {
+				background-color: #f7f8f8;
+			}
+
+			body{
+				font-family:"Microsoft YaHei", "Hiragino Sans GB", "WenQuanYi Micro Hei", "SimSun", tahoma, arial;
+			}
+			
+        </style>
+	
+    </head>
+        
+
+
+    <body data-spm=""><script type=text/javascript>var dmtrack_c='{-}'; var dmtrack_pageid='da114b790bb38d881487329072';
+(function(d){var t=d.createElement('script');t.type='text/javascript';t.async=true;t.src='//astyle-src.alicdn.com/sys/js/beacon/cnb.js';d.getElementsByTagName('head')[0].appendChild(t);}(document));</script> 
+<noscript><img src="//dmtracking.1688.com/b.jpg?cD0yJnU9e2N1c3RvbWVyLmNybS4xNjg4LmNvbSUyZnBhZ2UlMmZtZW1iZXJNYW5hZ2VyJTJlaHRtP3BhZ2VOdW09MX0mbT17R0VUfSZzPXsyMDB9JnI9ey19JmE9eyUyMmNfbXM9MnxjX210PTN8Y19taWQ9c3pmdHdsa2p8Y19saWQ9JTI1RTYlMjU4MSUyNTkyJTI1RTQlMjVCQSUyNUJGJTI1RTYlMjU5OCUyNThDJTIyfSZiPS0mYz17LX0K&ver=40&pageid=da114b790bb38d881487329072&time=1487329072" width="1" height="1" style="display:none"></noscript> 
+      <script type=text/javascript> var _SPM_a='{-}'; var _SPM_b='{-}';var _SPM_app_name='{-}';var _SPM_template_path='{-}';</script>
+<script>
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=991734576&aplus&&asid=ATCrHDsw16ZYU9jkQQAAAABM/Yp2jMTKtw==&aat=%22c%5fms%3d2%7cc%5fmt%3d3%7cc%5fmid%3dszftwlkj%7cc%5flid%3d%25E6%2581%2592%25E4%25BA%25BF%25E6%2598%258C%22&abi=&abb=&",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_b2b.js")
+</script>
+
+	
+        
+        
+
+    <div id="header" data-ischildaccount="0" data-workdomain="https://work.1688.com"></div>
+
+    <div style="width: 1190px; margin: 0 auto;" id="content" data-user-context='{"login":true,"csrfToken":"08687ee6d84b1ee4c5a45d3a9606e09b","isTopDomain":false,"uid":"szftwlkj","siteId":"customer","pageType":"memberManager","diy":false,"loginId":"szftwlkj"}'
+         data-page-id="memberManager" data-page-type="page" data-view-config='{"showTitle":true}'
+         data-edit-config='{"lastModified":0}' class="page-memberManager">
+
+        <div id="leftmenu" style="width:196px;">
+                                                         <div class="app-aliWorkLeftMenu " 
+		data-app='{&quot;name&quot;:&quot;aliWorkLeftMenu&quot;,&quot;styles&quot;:[],&quot;title&quot;:&quot;我的阿里侧边栏菜单服务&quot;}' 
+		data-view-config='{&quot;renderTemplate&quot;:&quot;raw.vm&quot;,&quot;showTitle&quot;:true}' 
+		data-edit-config='{}' 
+		>
+	
+<div data-spm="">
+	<input class="wk_appcode" value="hex_customer" type="hidden"/>
+<input class="wk_menucode" value="memberManage" type="hidden"/>
+<input value="newTemplates" type="hidden"/>
+<input value="" type="hidden"/>
+
+<script>
+    var workJsContent={
+	    WORK_MENU:{
+		       'hex_customer|memberManage':{"currentMenuCode":"memberManage","menuList":{"checked":true,"childMenu":[{"checked":true,"childMenu":[{"checked":true,"childMenu":[],"code":"auditapply","defaultDisplay":true,"feature":"","icon":"","id":5728648,"inWork":"Y","longCode":"hex_customer!hex_channelManage!auditapply","name":"申请合作的分销商","optional":true,"parame":"","parentId":5730134,"request":"","selected":false,"sortBy":1,"status":"online","style":"","taobaoCode":"isChildAccount&1688_crm_fxsgl_sqhzdfxs","type":"MENU","url":"https://work.1688.com/home/seller.htm#app/hex_customer/auditapply/%2F%2Fchannel.1688.com%2Fpage%2Fauditapply.htm%3F_app_code_%3Dhex_customer%26_scene_code_%3Dseller_base/-7080259461642275244"},{"checked":true,"childMenu":[],"code":"channelpublish","defaultDisplay":true,"feature":"","icon":"//cbu01.alicdn.com/cms/upload/2012/631/183/381136_2091977944.png","id":5728647,"inWork":"Y","longCode":"hex_customer!hex_channelManage!channelpublish","name":"发布招商信息","optional":true,"parame":"","parentId":5730134,"request":"","selected":false,"sortBy":2,"status":"online","style":"","taobaoCode":"isChildAccount&1688_crm_fxsgl_fbzsxx","type":"MENU","url":"https://work.1688.com/home/seller.htm#app/hex_customer/channelpublish/%2F%2Fchannel.1688.com%2Fpage%2Fchannelpublish.htm%3F_app_code_%3Dhex_customer%26_scene_code_%3Dseller_base/-7080259461642275244"},{"checked":true,"childMenu":[],"code":"distributorsmanage","defaultDisplay":true,"feature":"","icon":"","id":5728660,"inWork":"Y","longCode":"hex_customer!hex_channelManage!distributorsmanage","name":"合作中的分销商","optional":true,"parame":"","parentId":5730134,"request":"","selected":false,"sortBy":3,"status":"online","style":"","taobaoCode":"isChildAccount&1688_crm_fxsgl_hzzdfxs","type":"MENU","url":"https://work.1688.com/home/seller.htm#app/hex_customer/distributorsmanage/%2F%2Fchannel.1688.com%2Fpage%2Fdistributorsmanage.htm%3F_app_code_%3Dhex_customer%26_scene_code_%3Dseller_base/-7080259461642275244"},{"checked":true,"childMenu":[],"code":"groupmanagement","defaultDisplay":true,"feature":"","icon":"","id":5728649,"inWork":"Y","longCode":"hex_customer!hex_channelManage!groupmanagement","name":"分销商等级管理","optional":true,"parame":"","parentId":5730134,"request":"","selected":false,"sortBy":4,"status":"online","style":"","taobaoCode":"isChildAccount&1688_crm_fxsgl_fxsdjgl","type":"MENU","url":"https://work.1688.com/home/seller.htm#app/hex_customer/groupmanagement/%2F%2Fchannel.1688.com%2Fpage%2Fgroupmanagement.htm%3F_app_code_%3Dhex_customer%26_scene_code_%3Dseller_base/-7080259461642275244"}],"code":"hex_channelManage","defaultDisplay":true,"feature":"","icon":"","id":5730134,"inWork":"Y","longCode":"hex_customer!hex_channelManage","name":"渠道管理","optional":false,"parame":"","parentId":5730133,"request":"","selected":false,"sortBy":1,"status":"online","style":"","taobaoCode":"","type":"MENU","url":""},{"checked":true,"childMenu":[{"checked":true,"childMenu":[],"code":"memberApply","defaultDisplay":true,"feature":"","icon":"","id":5730144,"inWork":"Y","longCode":"hex_customer!hex_memberManage!memberApply","name":"会员申请审核","optional":false,"parame":"","parentId":5730135,"request":"","selected":false,"sortBy":1,"status":"online","style":"","taobaoCode":"1688_crm_hygl_sqhzdhy","type":"MENU","url":"https://work.1688.com/home/seller.htm#app/hex_customer/memberApply/https%3A%2F%2Fcustomer.crm.1688.com%2Fpage%2FmemberApply.htm%3F_app_code_%3Dhex_customer%26_scene_code_%3Dseller_base/-7080259461642275244"},{"checked":true,"childMenu":[],"code":"memberManage","defaultDisplay":true,"feature":"","icon":"","id":5730139,"inWork":"Y","longCode":"hex_customer!hex_memberManage!memberManage","name":"会员关系管理","optional":false,"parame":"","parentId":5730135,"request":"","selected":false,"sortBy":2,"status":"online","style":"","taobaoCode":"isChildAccount&1688_crm_hygl_hygxgl","type":"MENU","url":"https://work.1688.com/home/seller.htm#app/hex_customer/memberManage/https%3A%2F%2Fcustomer.crm.1688.com%2Fpage%2FmemberManager.htm%3F_app_code_%3Dhex_customer%26_scene_code_%3Dseller_base/-7080259461642275244"},{"checked":true,"childMenu":[],"code":"memberGradeSetting","defaultDisplay":true,"feature":"","icon":"","id":5730140,"inWork":"Y","longCode":"hex_customer!hex_memberManage!memberGradeSetting","name":"会员等级管理","optional":false,"parame":"","parentId":5730135,"request":"","selected":false,"sortBy":3,"status":"online","style":"","taobaoCode":"1688_crm_hygl_hydjgl","type":"MENU","url":"https://work.1688.com/home/seller.htm#app/hex_customer/memberGradeSetting/https%3A%2F%2Fcustomer.crm.1688.com%2Fpage%2FmemberGradeSetting.htm%3F_app_code_%3Dhex_customer%26_scene_code_%3Dseller_base/-7080259461642275244"},{"checked":true,"childMenu":[],"code":"specialManage","defaultDisplay":true,"feature":"","icon":"","id":5730141,"inWork":"Y","longCode":"hex_customer!hex_memberManage!specialManage","name":"权益管理","optional":false,"parame":"","parentId":5730135,"request":"","selected":false,"sortBy":4,"status":"online","style":"TARGET_BLANK","taobaoCode":"1688_crm_hygl_qygl","type":"MENU","url":"https://right.crm.1688.com/page/special.htm"},{"checked":true,"childMenu":[],"code":"datareportLink","defaultDisplay":true,"feature":"","icon":"","id":5730208,"inWork":"Y","longCode":"hex_customer!hex_memberManage!datareportLink","name":"数据中心","optional":false,"parame":"","parentId":5730135,"request":"","selected":false,"sortBy":7,"status":"online","style":"TARGET_BLANK","taobaoCode":"1688_crm_hygl_sjzx","type":"MENU","url":"https://data.crm.1688.com/page/datareport.htm"},{"checked":true,"childMenu":[],"code":"directedMarketingLink","defaultDisplay":true,"feature":"","icon":"","id":5730209,"inWork":"Y","longCode":"hex_customer!hex_memberManage!directedMarketingLink","name":"会员营销","optional":false,"parame":"","parentId":5730135,"request":"","selected":false,"sortBy":8,"status":"online","style":"TARGET_BLANK","taobaoCode":"","type":"MENU","url":"https://marketing.crm.1688.com/page/directedMarketing.htm"}],"code":"hex_memberManage","defaultDisplay":true,"feature":"","icon":"","id":5730135,"inWork":"Y","longCode":"hex_customer!hex_memberManage","name":"会员管理","optional":false,"parame":"","parentId":5730133,"request":"","selected":false,"sortBy":2,"status":"online","style":"","taobaoCode":"","type":"MENU","url":""},{"checked":true,"childMenu":[{"checked":true,"childMenu":[],"code":"memberright","defaultDisplay":true,"feature":"","icon":"","id":5730142,"inWork":"Y","longCode":"hex_customer!hex_preferential!memberright","name":"会员优惠","optional":false,"parame":"","parentId":5730136,"request":"","selected":false,"sortBy":1,"status":"online","style":"","taobaoCode":"1688_crm_jggl_hyjg","type":"MENU","url":"https://work.1688.com/home/seller.htm#app/hex_customer/memberright/https%3A%2F%2Fchannel.1688.com%2Fpage%2Fpriceright.htm%3FrightScene%3Dcustomer%26_app_code_%3Dhex_customer%26_scene_code_%3Dseller_base/-7080259461642275244"},{"checked":true,"childMenu":[],"code":"channelright","defaultDisplay":true,"feature":"","icon":"","id":5728644,"inWork":"Y","longCode":"hex_customer!hex_preferential!channelright","name":"分销优惠管理","optional":true,"parame":"","parentId":5730136,"request":"","selected":false,"sortBy":3,"status":"online","style":"","taobaoCode":"","type":"MENU","url":"https://work.1688.com/home/seller.htm#app/hex_customer/channelright/%2F%2Fchannel.1688.com%2Fpage%2Fchannelright.htm%3F_app_code_%3Dhex_customer%26_scene_code_%3Dseller_base/-7080259461642275244"}],"code":"hex_preferential","defaultDisplay":true,"feature":"","icon":"","id":5730136,"inWork":"Y","longCode":"hex_customer!hex_preferential","name":"优惠价格","optional":false,"parame":"!MultiSign3_15","parentId":5730133,"request":"","selected":false,"sortBy":3,"status":"online","style":"","taobaoCode":"!MultiSign3_15","type":"MENU","url":""},{"checked":true,"childMenu":[{"checked":true,"childMenu":[],"code":"distributionline","defaultDisplay":true,"feature":"","icon":"","id":5728651,"inWork":"Y","longCode":"hex_customer!hex_offerPacket!distributionline","name":"产品分组管理","optional":true,"parame":"","parentId":5730137,"request":"","selected":false,"sortBy":1,"status":"online","style":"","taobaoCode":"","type":"MENU","url":"https://work.1688.com/home/seller.htm#app/hex_customer/distributionline/https%3A%2F%2Fchannel.1688.com%2Fpage%2Foffergroup.htm%3F_app_code_%3Dhex_customer%26_scene_code_%3Dseller_base/-7080259461642275244"},{"checked":true,"childMenu":[],"code":"distributionoffer","defaultDisplay":true,"feature":"","icon":"","id":5728650,"inWork":"Y","longCode":"hex_customer!hex_offerPacket!distributionoffer","name":"我的代销产品","optional":true,"parame":"","parentId":5730137,"request":"","selected":false,"sortBy":2,"status":"online","style":"","taobaoCode":"MultiSign2_39","type":"MENU","url":"https://work.1688.com/home/seller.htm#app/hex_customer/distributionoffer/%2F%2Fchannel.1688.com%2Fpage%2Fdistributionoffer.htm%3F_app_code_%3Dhex_customer%26_scene_code_%3Dseller_base/-7080259461642275244"}],"code":"hex_offerPacket","defaultDisplay":true,"feature":"","icon":"","id":5730137,"inWork":"Y","longCode":"hex_customer!hex_offerPacket","name":"产品分组","optional":false,"parame":"!MultiSign3_15","parentId":5730133,"request":"","selected":false,"sortBy":4,"status":"online","style":"","taobaoCode":"!MultiSign3_15","type":"MENU","url":""},{"checked":true,"childMenu":[],"code":"channelmessage","defaultDisplay":true,"feature":"","icon":"","id":5728646,"inWork":"Y","longCode":"hex_customer!channelmessage","name":"客户消息管理","optional":true,"parame":"","parentId":5730133,"request":"","selected":false,"sortBy":5,"status":"online","style":"","taobaoCode":"","type":"MENU","url":"https://work.1688.com/home/seller.htm#app/hex_customer/channelmessage/%2F%2Fchannel.1688.com%2Fpage%2Fchannelmessage.htm%3F_app_code_%3Dhex_customer%26_scene_code_%3Dseller_base/-7080259461642275244"}],"code":"hex_customer","defaultDisplay":true,"feature":"","icon":"","id":5730133,"inWork":"","longCode":"hex_customer","name":"客户管理","optional":false,"parame":"","parentId":0,"request":"","selected":false,"sortBy":0,"status":"","style":"","taobaoCode":"","type":"CHANNEL","url":"/app/hex_customer"}}
+			   },
+        environment:'online',//dev or online，
+        greenChannel:'',
+		ENVIRONMENT:'online',//dev or online，
+        GREEN_CHANNEL:'',
+		IS_SALLER:'true',
+		REQUEST_FROM:'',
+		BUSINESS:'seller_base',
+		BIZ_TYPE:'seller',
+		MENU_TYPE:'Common',
+		BIZ_SCENE:null
+    };
+    var workWidgetJsContent={
+        environment:'online'//dev or online
+    };
+</script>
+<script type="text/javascript" src="//astyle-src.alicdn.com/app/aliwork/main_site/script/bridge/bridge.js"></script>
+<div class="leftmenu_nav">
+					<img src="//cbu01.alicdn.com/cms/upload/2014/931/430/2034139_790723559.gif"/>
+			</div></div>
+
+</div>
+
+        </div>
+        <div id="app-content" style="background:transparent; width:980px;" class="refly-dpl-type">
+			                <!--通栏-->
+
+<!--100%-->
+<div id="site_content-box" class="segment-box segment-box-fluid">
+    <div id="site_content" class="segment layout layout-fluid" data-segment-id="site_content" data-layout-type="fluid">
+    	<div class="region region-type-fluid" data-region-type="fluid" data-region-index="0">
+    	    		<div class="app-customer_memManager_new " 
+		data-app='{&quot;name&quot;:&quot;customer_memManager_new&quot;,&quot;id&quot;:&quot;ac4f80b756d94203bcfe0bfab17697e3&quot;,&quot;styles&quot;:[],&quot;title&quot;:&quot;会员管理&quot;}' 
+		data-view-config='{&quot;renderTemplate&quot;:&quot;raw.vm&quot;,&quot;channelServer&quot;:&quot;http://channel.crm.1688.com&quot;,&quot;customerServer&quot;:&quot;http://customer.crm.1688.com&quot;,&quot;basePagedUrl&quot;:&quot;//customer.crm.1688.com/page/memberManager.htm?pageNum=1&quot;,&quot;province&quot;:null,&quot;currentpage&quot;:1,&quot;showTitle&quot;:false,&quot;totalpage&quot;:104,&quot;canLevelUp&quot;:true}' 
+		data-edit-config='{}' 
+		>
+	
+
+
+
+
+            
+        
+    
+<link href="https://astyle-src.alicdn.com/fdevlib/css/lofty/ui/form/1.0/front/form-min.css" rel="stylesheet"/>
+<!--旺旺-->
+<link href="https://astyle-src.alicdn.com/fdevlib/css/lofty/alicn/alitalk/1.0/alitalk.css" rel="stylesheet"/>
+<!--加载图标 -->
+<link href="https://astyle-src.alicdn.com/fdevlib/css/lofty/ui/loading/1.0/front/loading-min.css" rel="stylesheet"/>
+<!--时间选择器-->
+<link href="https://astyle-src.alicdn.com/fdevlib/css/lofty/ui/datepicker/1.0/back/datepicker-min.css" rel="stylesheet"/>
+<link href="https://assets.1688.com/app/crm_pageControl/1.0.0/css/tag-list.css" rel="stylesheet"/>
+<!-- 分页 -->
+<link href="https://astyle-src.alicdn.com/fdevlib/css/lofty/ui/button/1.0/front/button-min.css" rel="stylesheet"/>
+<link href="https://astyle-src.alicdn.com/fdevlib/css/lofty/ui/paging/1.0/front/paging-min.css" rel="stylesheet"/>
+
+<div class="refly-dpl-panel">
+    <div  class="content clearfix newversion" style="font-size:14px;font-family: Microsoft YaHei !important;padding:15px;min-height:0px;">
+		<span class="refly-dpl-icon i-chat" style="color:#61a5fb"></span>
+		<span>现在使用的是最新版本的客户关系管理</span>
+        <a class="changeToOldVersion" href="#" style="float:right;">点此使用老版本</a>
+    </div>
+</div>
+<div class="refly-dpl-panel">
+	<!--
+    <div class="header clearfix">
+        <h2 class="text-important" style="float: left;">会员管理</h2>
+    </div>
+    -->
+    <div class="content clearfix">
+		<div class="manage-customer">
+    
+<div class="search">
+        <div class="search-content fd-clr">
+            <div class="content">
+            <table class="refly-dpl-table2">
+                <tr> <!--width:110px;-->
+                    <th style="vertical-align:middle; text-align:left;"><span class="name">会员登录名</span></th>
+                    <td > <!--style="width:280px;"-->
+                        <!-- <input class="input-name long-input fui-text" type="text" value=""/>-->
+                        <input class="refly-dpl-input small input-name"
+                               style="width: 200px;height:35px;" type="text" value=""/><!--class="input-name long-input fui-text"-->
+                    </td>
+                    <th><span class="trade-money">交易总额</span></th>
+                    <td>
+                        <input class="refly-dpl-input small couple input-min-trade-money"   type="text"
+                               value=""/> <!-- class="input-min-trade-money short-input fui-text" -->
+                        <span class="to max-trade-money">至</span>
+                        <input class="refly-dpl-input small couple input-max-trade-money" type="text"
+                               value=""/> <!-- class="input-max-trade-money short-input fui-text" -->
+                    </td>
+
+                <tr>
+                    <th>
+        			    <span class="trade-time">交易时间</span>
+                    </th>
+                    <td> <!--fui-text-->
+                        <input id="trigger2" class="input-begin-trade-time short-input " type="text" value="" readonly/>
+        			    <span class="to end-trade-time">至</span>
+                        <input id="trigger3" class="input-end-trade-time short-input" type="text" value="" readonly/>
+                     </td>
+                    <th>
+    				<span class="trade-count">交易笔数</span>
+                    </th>
+                    <td>
+                        <input class="refly-dpl-input small couple input-min-trade-count"  type="text" value=""/> <!--class="input-min-trade-count short-input fui-text"-->
+        			    <span class="to max-trade-count">至</span>
+                        <input class="refly-dpl-input small couple input-max-trade-count"  type="text" value=""/> <!--class="input-max-trade-count short-input fui-text"-->
+                    </td>
+               </tr>
+               <tr>
+                   <th>
+        			<span class="area" >所在地区</span>
+                   </th>
+                   <td>
+                    <div class="province" data-province="" placeholder="请选择"></div>
+                   </td>
+                   <th>
+        			<span class="total-offer-num">累计货品数量</span>
+                   </th>
+                   <td>
+                        <input class="refly-dpl-input small input-min-num couple"  type="text" value=""/>
+                       <!--class="input-min-num short-input fui-text"-->
+        			    <span class="to max-num">至</span>
+                        <input  class="refly-dpl-input small input-max-num couple"  type="text" value=""/>
+                       <!--class="input-max-num short-input fui-text"-->
+                   </td>
+                 <tr>
+                    <th>
+        			<span class="mem-level">会员等级</span>
+                    </th>
+                    <td>
+
+                    <div id="gradelevel-div" class="gradelevel-div">
+                    <select class="gradelevel" name="gradelevel" id="gradelevel" >
+                        <option value="-1"  selected >全部会员</option>
+                        <option value="0" >店铺客户</option>
+                        <option value="1" >普通会员</option>
+                        <option value="2" >高级会员</option>
+                        <option value="3" >VIP会员</option>
+                        <option value="4" >至尊VIP</option>
+                    </select>
+                       </div>
+
+                    </td>
+                    <th>
+        			<span class="channel-type">渠道类型</span>
+                    </th>
+                    <td>
+                        <div id="channeltype-div" class="channeltype-div">
+                    <select class="channeltype" name="channeltype" id="channeltype" placeholder="请选择">
+                        <option value=""  selected >请选择</option>
+                        <option value="1|2" >全部渠道商</option>
+                        <option value="1" >网络代理</option>
+                        <option value="2" >实体加盟</option>
+                    </select>
+                            </div>
+                    </td>
+                  </tr>
+               </table>
+           </div>
+
+        </div>
+    <div class="split-line"></div>
+    <div style="margin:15px 0px 15px 650px"> <!-- background: #027cff-->
+        <button type="button" class="refly-dpl-button secondary small important search-btn"
+                style="width:150px;height:35px;border-color: #027cff;font-size:14px;"
+                data-siteid="customer"
+                data-tracelog="crm_customer_membersystem_manage_search">查询</button>
+        <button type="reset" class="refly-dpl-button small reset-btn "
+                style="width:150px;height:35px;border-color: #027cff;margin-left: 8px;font-size:14px;color:#027cff;"
+                data-siteid="customer"
+                data-tracelog="crm_customer_membersystem_manage_search">重置</button>
+
+        <!--
+         <button type="button" class="search-btn" data-siteid="customer"
+          data-tracelog="crm_customer_membersystem_manage_search">查询</button>
+                <div class="reset-btn" data-tracelog="crm_customer_membersystem_manage_reset">重置</div>
+         -->
+
+    </div>
+</div>
+<div style="height:20px;background: #e8e8e8;">
+</div>
+
+    <div class="tags fd-clr tag-item-picker tagrow tags-show" style="overflow: visible;height: auto;">
+	<label style="font-size:14px;">标签:</label>
+    <div class="tag-item fd-clr controls tag-item-list" style="margin-left: 60px;">
+        <div class="inner" id="tag-inner-show">
+						<span class='item add-tag-label '
+                  data-tagid="" data-siteid="customer"
+                  style="padding-right: 40px;font-size:12px;color:#007cfa;"
+                  data-tracelog="crm_customer_membersystem_manage_label">全部会员( 1035 )</span>
+        		</div>
+    </div>
+	<span class="edit-tag-list" style="color:#007cfa;left:860px;width:50px;">
+		管理标签
+	</span>
+		<span id="tags-show-more-span" class="show-more" style="color:#007cfa;margin-right: 10px;">
+			<label class="show-more-label">展开 <i class="refly-dpl-icon i-arrow-down"></i></label>
+			<label class="show-less-label" style="display:none;">收起 <i class="refly-dpl-icon i-arrow-up"></i></label>
+		</span>
+</div>
+
+<div class="tags fd-clr tag-item-picker tagrow tags-edit-row " style="display: none;height: auto;">
+    <label style="font-size:14px;">标签:</label>
+    <div class="tag-item fd-clr controls tag-item-list" style="margin-left: 60px;">
+        <div class="inner add-edit-tag-div">
+			
+						<span class="edit-tag-add" style="color:#007cfa;margin-top: 3px;">+标签</span>
+        </div>
+    </div>
+	<span class="close-edit-tag" style="color:#007cfa;left:860px;width:50px;">
+		关闭管理
+	</span>
+</div>
+
+    <div class="split-line" style="border-top: 1px solid #e8e8e8;"></div>
+
+    <div class="actions fd-clr">
+        <input type="checkbox" class="refly-dpl-checkbox batch-select" name="batch-select"
+        />
+        <button type="button" class="edit-button action-btn batch-delete-member refly-dpl-button small update_button " >删除会员</button>
+        <button type="button" class="action-btn batch-modify refly-dpl-button small update_button edit-button" >批量修改</button>
+        <button type="button" class="edit-button action-btn add-member refly-dpl-button small important update_button "
+                style="border-color: #027cff;background-color:#027cff;width:110px;"> + 新增会员</button>
+        <!--
+        <div class="action-btn batch-delete-member" data-tracelog="crm_customer_membersystem_manage_multi-delete">删除会员</div>
+        <div class="action-btn batch-modify" data-tracelog="crm_customer_membersystem_manage_multi-changelevel">批量修改</div>
+        <div class="action-btn add-member" data-tracelog="crm_customer_membersystem_manage_new">新增会员</div>
+    -->
+    </div>
+
+    <table class="detail refly-dpl-table" id="hook-alitalk">
+        <thead>
+        <tr style="height:40px;">
+            <th class="name" style="width:40%;">
+                <span>会员登录名</span>
+            </th>
+            <th class="grade" style="width:15%;">
+                会员等级
+            </th>
+            <th class="amount-count" style="width:15%;">
+                交易金额 / 笔数
+            </th>
+            <th class="lasttime" style="width:15%;" >
+                上次交易时间
+            </th>
+            <th class="source" style="width:15%;">
+                会员来源
+            </th>
+            <th class="operation" style="width:20%;">
+                操作
+            </th>
+        </tr>
+        </thead>
+
+        <tbody>
+                                            <tr class="item member">
+                    <td colspan="6">
+                        <div class="info">
+                            <ul class="fd-clr">
+                                <li class="name" style="width:33%;">
+                                    <input class="search-item refly-dpl-checkbox" type="checkbox" name="search-item" data-memberid="wuxiang201205"/>
+                                    wuxiang201205
+                                    <!--
+                                    <a href="memDetail.htm?userId=952819396" target="_blank" title="wuxiang201205" data-tracelog="crm_customer_membersystem_manage_id">
+                                    </a> -->
+                                                                                                            <a data-alitalk='{"id": "wuxiang201205","siteID":"cnalichn"}' class="alitalk" href="#" data-tracelog="crm_customer_membersystem_manage_wangwang"></a>
+                                </li>
+                                <li class="grade" style="width:15%;">
+                                                                            店铺客户
+                                                                        <a href="javascript:;" class="modifylevel" data-memberid="wuxiang201205" data-currlevel="0" data-status = "1" data-tracelog="crm_customer_membersystem_manage_changelevel">修改</a>
+                                </li>
+                                <li class="amount-count" style="width:12%;">
+                                                                                                                                                <a href="https://trade.1688.com/order/seller_order_list.htm?page=1&orderIdSearch=&productName=&buyerLoginId=wuxiang201205&tradeStatus=&startDate=&endDate=&quickDateSearchHit="
+                                       target="_blank" data-tracelog="crm_customer_membersystem_manage_trading">13002元 / 36笔</a>
+                                </li>
+                                <li class="lasttime" style="width:14%;">
+                                    2017-02-07
+                                </li>
+                                <li class="source" style="width:10%">
+                                                                            交易成功
+                                                                    </li>
+                                <li class="operation" style="width:14%;"> <!--href="memDetail.htm?userId=952819396"-->
+                                    <a class="member-detail" href="javascript:;"
+                                       data-memberid="wuxiang201205"
+                                       data-userid="IDX1VJ_agOfhcVbe58k10OPCcnLCt9QWxLVjiWLiUwZBGQvLefaqxJ2_YDh4U8kF-9_k"
+                                       data-tracelog="crm_customer_membersystem_manage_edit">查看详情</a>
+                                    <a class="deletemember" data-memberid="wuxiang201205"
+                                       href="javascript:;" data-tracelog="crm_customer_membersystem_manage_delete">删除</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="tag fd-clr">
+                            <span class="personal-tag-title">标签：</span>
+                            <div class="personal-tag-item">
+                                                                
+                                <div class="tagbox refly-dpl-input-container" >
+                                    <input type="text" class="refly-dpl-input result addtag"
+                                           placeholder="添加标签" readonly="readonly" data-memberid="wuxiang201205"
+                                    style="height:30px;width:162px;font-size:12px;">
+                                    <i class="refly-dpl-icon i-arrow-down addtag" style="color:#999;"></i>
+                                    </input>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                                <tr class="item member">
+                    <td colspan="6">
+                        <div class="info">
+                            <ul class="fd-clr">
+                                <li class="name" style="width:33%;">
+                                    <input class="search-item refly-dpl-checkbox" type="checkbox" name="search-item" data-memberid="yukimichael0205"/>
+                                    yukimichael0205
+                                    <!--
+                                    <a href="memDetail.htm?userId=338556371" target="_blank" title="yukimichael0205" data-tracelog="crm_customer_membersystem_manage_id">
+                                    </a> -->
+                                                                                                            <a data-alitalk='{"id": "yukimichael0205","siteID":"cnalichn"}' class="alitalk" href="#" data-tracelog="crm_customer_membersystem_manage_wangwang"></a>
+                                </li>
+                                <li class="grade" style="width:15%;">
+                                                                            店铺客户
+                                                                        <a href="javascript:;" class="modifylevel" data-memberid="yukimichael0205" data-currlevel="0" data-status = "1" data-tracelog="crm_customer_membersystem_manage_changelevel">修改</a>
+                                </li>
+                                <li class="amount-count" style="width:12%;">
+                                                                                                                                                <a href="https://trade.1688.com/order/seller_order_list.htm?page=1&orderIdSearch=&productName=&buyerLoginId=yukimichael0205&tradeStatus=&startDate=&endDate=&quickDateSearchHit="
+                                       target="_blank" data-tracelog="crm_customer_membersystem_manage_trading">458元 / 2笔</a>
+                                </li>
+                                <li class="lasttime" style="width:14%;">
+                                    2017-02-05
+                                </li>
+                                <li class="source" style="width:10%">
+                                                                            交易成功
+                                                                    </li>
+                                <li class="operation" style="width:14%;"> <!--href="memDetail.htm?userId=338556371"-->
+                                    <a class="member-detail" href="javascript:;"
+                                       data-memberid="yukimichael0205"
+                                       data-userid="IDX1ohsQkAAVjgteH3PYTzr2cgIPcYB_FbfkLo2MnU3K4Mj_kAITH20Vvs_PisBEMqBS"
+                                       data-tracelog="crm_customer_membersystem_manage_edit">查看详情</a>
+                                    <a class="deletemember" data-memberid="yukimichael0205"
+                                       href="javascript:;" data-tracelog="crm_customer_membersystem_manage_delete">删除</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="tag fd-clr">
+                            <span class="personal-tag-title">标签：</span>
+                            <div class="personal-tag-item">
+                                                                
+                                <div class="tagbox refly-dpl-input-container" >
+                                    <input type="text" class="refly-dpl-input result addtag"
+                                           placeholder="添加标签" readonly="readonly" data-memberid="yukimichael0205"
+                                    style="height:30px;width:162px;font-size:12px;">
+                                    <i class="refly-dpl-icon i-arrow-down addtag" style="color:#999;"></i>
+                                    </input>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                                <tr class="item member">
+                    <td colspan="6">
+                        <div class="info">
+                            <ul class="fd-clr">
+                                <li class="name" style="width:33%;">
+                                    <input class="search-item refly-dpl-checkbox" type="checkbox" name="search-item" data-memberid="simondadada"/>
+                                    simondadada
+                                    <!--
+                                    <a href="memDetail.htm?userId=2731206831" target="_blank" title="simondadada" data-tracelog="crm_customer_membersystem_manage_id">
+                                    </a> -->
+                                                                                                            <a data-alitalk='{"id": "simondadada","siteID":"cnalichn"}' class="alitalk" href="#" data-tracelog="crm_customer_membersystem_manage_wangwang"></a>
+                                </li>
+                                <li class="grade" style="width:15%;">
+                                                                            店铺客户
+                                                                        <a href="javascript:;" class="modifylevel" data-memberid="simondadada" data-currlevel="0" data-status = "1" data-tracelog="crm_customer_membersystem_manage_changelevel">修改</a>
+                                </li>
+                                <li class="amount-count" style="width:12%;">
+                                                                                                                                                <a href="https://trade.1688.com/order/seller_order_list.htm?page=1&orderIdSearch=&productName=&buyerLoginId=simondadada&tradeStatus=&startDate=&endDate=&quickDateSearchHit="
+                                       target="_blank" data-tracelog="crm_customer_membersystem_manage_trading">114813元 / 17笔</a>
+                                </li>
+                                <li class="lasttime" style="width:14%;">
+                                    2017-01-16
+                                </li>
+                                <li class="source" style="width:10%">
+                                                                            交易成功
+                                                                    </li>
+                                <li class="operation" style="width:14%;"> <!--href="memDetail.htm?userId=2731206831"-->
+                                    <a class="member-detail" href="javascript:;"
+                                       data-memberid="simondadada"
+                                       data-userid="IDX1HTGY-gZgWmclwvLIGzj6Ho5zwC8kMRjS-vQjZhalzf5TGltIEyI2cKAzrXWV2UhS"
+                                       data-tracelog="crm_customer_membersystem_manage_edit">查看详情</a>
+                                    <a class="deletemember" data-memberid="simondadada"
+                                       href="javascript:;" data-tracelog="crm_customer_membersystem_manage_delete">删除</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="tag fd-clr">
+                            <span class="personal-tag-title">标签：</span>
+                            <div class="personal-tag-item">
+                                                                
+                                <div class="tagbox refly-dpl-input-container" >
+                                    <input type="text" class="refly-dpl-input result addtag"
+                                           placeholder="添加标签" readonly="readonly" data-memberid="simondadada"
+                                    style="height:30px;width:162px;font-size:12px;">
+                                    <i class="refly-dpl-icon i-arrow-down addtag" style="color:#999;"></i>
+                                    </input>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                                <tr class="item member">
+                    <td colspan="6">
+                        <div class="info">
+                            <ul class="fd-clr">
+                                <li class="name" style="width:33%;">
+                                    <input class="search-item refly-dpl-checkbox" type="checkbox" name="search-item" data-memberid="yy02940"/>
+                                    yy02940
+                                    <!--
+                                    <a href="memDetail.htm?userId=334810371" target="_blank" title="yy02940" data-tracelog="crm_customer_membersystem_manage_id">
+                                    </a> -->
+                                                                                                            <a data-alitalk='{"id": "yy02940","siteID":"cnalichn"}' class="alitalk" href="#" data-tracelog="crm_customer_membersystem_manage_wangwang"></a>
+                                </li>
+                                <li class="grade" style="width:15%;">
+                                                                            店铺客户
+                                                                        <a href="javascript:;" class="modifylevel" data-memberid="yy02940" data-currlevel="0" data-status = "1" data-tracelog="crm_customer_membersystem_manage_changelevel">修改</a>
+                                </li>
+                                <li class="amount-count" style="width:12%;">                                                                                                                                                <a href="https://trade.1688.com/order/seller_order_list.htm?page=1&orderIdSearch=&productName=&buyerLoginId=yy02940&tradeStatus=&startDate=&endDate=&quickDateSearchHit="
+                                       target="_blank" data-tracelog="crm_customer_membersystem_manage_trading">12814.29元 / 14笔</a>
+                                </li>
+                                <li class="lasttime" style="width:14%;">
+                                    2017-01-12
+                                </li>
+                                <li class="source" style="width:10%">
+                                                                            交易成功
+                                                                    </li>
+                                <li class="operation" style="width:14%;"> <!--href="memDetail.htm?userId=334810371"-->
+                                    <a class="member-detail" href="javascript:;"
+                                       data-memberid="yy02940"
+                                       data-userid="IDX1PmkeoQvPrlSh6HsL4s7SEGBEBHQ8bK2GzrUqhS8TI1W4_u1nVjlCmtzXDXj7aseE"
+                                       data-tracelog="crm_customer_membersystem_manage_edit">查看详情</a>
+                                    <a class="deletemember" data-memberid="yy02940"
+                                       href="javascript:;" data-tracelog="crm_customer_membersystem_manage_delete">删除</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="tag fd-clr">
+                            <span class="personal-tag-title">标签：</span>
+                            <div class="personal-tag-item">
+                                                                
+                                <div class="tagbox refly-dpl-input-container" >
+                                    <input type="text" class="refly-dpl-input result addtag"
+                                           placeholder="添加标签" readonly="readonly" data-memberid="yy02940"
+                                    style="height:30px;width:162px;font-size:12px;">
+                                    <i class="refly-dpl-icon i-arrow-down addtag" style="color:#999;"></i>
+                                    </input>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                                <tr class="item member">
+                    <td colspan="6">
+                        <div class="info">
+                            <ul class="fd-clr">
+                                <li class="name" style="width:33%;">
+                                    <input class="search-item refly-dpl-checkbox" type="checkbox" name="search-item" data-memberid="牛牛网店"/>
+                                    牛牛网店
+                                    <!--
+                                    <a href="memDetail.htm?userId=59424791" target="_blank" title="牛牛网店" data-tracelog="crm_customer_membersystem_manage_id">
+                                    </a> -->
+                                                                                                            <a data-alitalk='{"id": "牛牛网店","siteID":"cnalichn"}' class="alitalk" href="#" data-tracelog="crm_customer_membersystem_manage_wangwang"></a>
+                                </li>
+                                <li class="grade" style="width:15%;">
+                                                                            店铺客户
+                                                                        <a href="javascript:;" class="modifylevel" data-memberid="牛牛网店" data-currlevel="0" data-status = "1" data-tracelog="crm_customer_membersystem_manage_changelevel">修改</a>
+                                </li>
+                                <li class="amount-count" style="width:12%;">
+                                                                                                                                                <a href="https://trade.1688.com/order/seller_order_list.htm?page=1&orderIdSearch=&productName=&buyerLoginId=牛牛网店&tradeStatus=&startDate=&endDate=&quickDateSearchHit="
+                                       target="_blank" data-tracelog="crm_customer_membersystem_manage_trading">70840元 / 42笔</a>
+                                </li>
+                                <li class="lasttime" style="width:14%;">
+                                    2017-01-12
+                                </li>
+                                <li class="source" style="width:10%">
+                                                                            交易成功
+                                                                    </li>
+                                <li class="operation" style="width:14%;"> <!--href="memDetail.htm?userId=59424791"-->
+                                    <a class="member-detail" href="javascript:;"
+                                       data-memberid="牛牛网店"
+                                       data-userid="IDX1qfF-71-b9H0v0ZJUixwTh-CwjTC6gypOHEkcJRcrbC1P40sEj3xnRS_Zx3i1heKI"
+                                       data-tracelog="crm_customer_membersystem_manage_edit">查看详情</a>
+                                    <a class="deletemember" data-memberid="牛牛网店"
+                                       href="javascript:;" data-tracelog="crm_customer_membersystem_manage_delete">删除</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="tag fd-clr">
+                            <span class="personal-tag-title">标签：</span>
+                            <div class="personal-tag-item">
+                                                                
+                                <div class="tagbox refly-dpl-input-container" >
+                                    <input type="text" class="refly-dpl-input result addtag"
+                                           placeholder="添加标签" readonly="readonly" data-memberid="牛牛网店"
+                                    style="height:30px;width:162px;font-size:12px;">
+                                    <i class="refly-dpl-icon i-arrow-down addtag" style="color:#999;"></i>
+                                    </input>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                                <tr class="item member">
+                    <td colspan="6">
+                        <div class="info">
+                            <ul class="fd-clr">
+                                <li class="name" style="width:33%;">
+                                    <input class="search-item refly-dpl-checkbox" type="checkbox" name="search-item" data-memberid="云峰汽配商店"/>
+                                    云峰汽配商店
+                                    <!--
+                                    <a href="memDetail.htm?userId=690787811" target="_blank" title="云峰汽配商店" data-tracelog="crm_customer_membersystem_manage_id">
+                                    </a> -->
+                                                                                                                                                <a data-alitalk='{"id": "云峰汽配商店","siteID":"cntaobao"}' class="alitalk" href="#" data-tracelog="crm_customer_membersystem_manage_wangwang"></a>
+                                </li>
+                                <li class="grade" style="width:15%;">
+                                                                            店铺客户
+                                                                        <a href="javascript:;" class="modifylevel" data-memberid="云峰汽配商店" data-currlevel="0" data-status = "1" data-tracelog="crm_customer_membersystem_manage_changelevel">修改</a>
+                                </li>
+                                <li class="amount-count" style="width:12%;">
+                                                                                                                                                <a href="https://trade.1688.com/order/seller_order_list.htm?page=1&orderIdSearch=&productName=&buyerLoginId=云峰汽配商店&tradeStatus=&startDate=&endDate=&quickDateSearchHit="
+                                       target="_blank" data-tracelog="crm_customer_membersystem_manage_trading">997元 / 9笔</a>
+                                </li>
+                                <li class="lasttime" style="width:14%;">
+                                    2017-01-12
+                                </li>
+                                <li class="source" style="width:10%">
+                                                                            交易成功
+                                                                    </li>
+                                <li class="operation" style="width:14%;"> <!--href="memDetail.htm?userId=690787811"-->
+                                    <a class="member-detail" href="javascript:;"
+                                       data-memberid="云峰汽配商店"
+                                       data-userid="IDX10fAz4_5pBBMWAkCN_-mrerztp67E81fTSjxitzWD3LNGbkbLerbrsKpaLCh_hDzT"
+                                       data-tracelog="crm_customer_membersystem_manage_edit">查看详情</a>
+                                    <a class="deletemember" data-memberid="云峰汽配商店"
+                                       href="javascript:;" data-tracelog="crm_customer_membersystem_manage_delete">删除</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="tag fd-clr">
+                            <span class="personal-tag-title">标签：</span>
+                            <div class="personal-tag-item">
+                                                                
+                                <div class="tagbox refly-dpl-input-container" >
+                                    <input type="text" class="refly-dpl-input result addtag"
+                                           placeholder="添加标签" readonly="readonly" data-memberid="云峰汽配商店"
+                                    style="height:30px;width:162px;font-size:12px;">
+                                    <i class="refly-dpl-icon i-arrow-down addtag" style="color:#999;"></i>
+                                    </input>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                                <tr class="item member">
+                    <td colspan="6">
+                        <div class="info">
+                            <ul class="fd-clr">
+                                <li class="name" style="width:33%;">
+                                    <input class="search-item refly-dpl-checkbox" type="checkbox" name="search-item" data-memberid="jhlink"/>
+                                    jhlink
+                                    <!--
+                                    <a href="memDetail.htm?userId=42366423" target="_blank" title="jhlink" data-tracelog="crm_customer_membersystem_manage_id">
+                                    </a> -->
+                                                                                                                                                <a data-alitalk='{"id": "jhlink","siteID":"cntaobao"}' class="alitalk" href="#" data-tracelog="crm_customer_membersystem_manage_wangwang"></a>
+                                </li>
+                                <li class="grade" style="width:15%;">
+                                                                            店铺客户
+                                                                        <a href="javascript:;" class="modifylevel" data-memberid="jhlink" data-currlevel="0" data-status = "1" data-tracelog="crm_customer_membersystem_manage_changelevel">修改</a>
+                                </li>
+                                <li class="amount-count" style="width:12%;">
+                                                                                                                                                <a href="https://trade.1688.com/order/seller_order_list.htm?page=1&orderIdSearch=&productName=&buyerLoginId=jhlink&tradeStatus=&startDate=&endDate=&quickDateSearchHit="
+                                       target="_blank" data-tracelog="crm_customer_membersystem_manage_trading">6400元 / 1笔</a>
+                                </li>
+                                <li class="lasttime" style="width:14%;">
+                                    2017-01-12
+                                </li>
+                                <li class="source" style="width:10%">
+                                                                            交易成功
+                                                                    </li>
+                                <li class="operation" style="width:14%;"> <!--href="memDetail.htm?userId=42366423"-->
+                                    <a class="member-detail" href="javascript:;"
+                                       data-memberid="jhlink"
+                                       data-userid="IDX1Rpe34uL1AZjslcwOG0QMrgvEwzuSmQ30nL-v6PncUlnsPJikNAh_bAwReLo5StcU"
+                                       data-tracelog="crm_customer_membersystem_manage_edit">查看详情</a>
+                                    <a class="deletemember" data-memberid="jhlink"
+                                       href="javascript:;" data-tracelog="crm_customer_membersystem_manage_delete">删除</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="tag fd-clr">
+                            <span class="personal-tag-title">标签：</span>
+                            <div class="personal-tag-item">
+                                                                
+                                <div class="tagbox refly-dpl-input-container" >
+                                    <input type="text" class="refly-dpl-input result addtag"
+                                           placeholder="添加标签" readonly="readonly" data-memberid="jhlink"
+                                    style="height:30px;width:162px;font-size:12px;">
+                                    <i class="refly-dpl-icon i-arrow-down addtag" style="color:#999;"></i>
+                                    </input>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                                <tr class="item member">
+                    <td colspan="6">
+                        <div class="info">
+                            <ul class="fd-clr">
+                                <li class="name" style="width:33%;">
+                                    <input class="search-item refly-dpl-checkbox" type="checkbox" name="search-item" data-memberid="缘缘rupin"/>
+                                    缘缘rupin
+                                    <!--
+                                    <a href="memDetail.htm?userId=1029750509" target="_blank" title="缘缘rupin" data-tracelog="crm_customer_membersystem_manage_id">
+                                    </a> -->
+                                                                                                            <a data-alitalk='{"id": "缘缘rupin","siteID":"cnalichn"}' class="alitalk" href="#" data-tracelog="crm_customer_membersystem_manage_wangwang"></a>
+                                </li>
+                                <li class="grade" style="width:15%;">
+                                                                            店铺客户
+                                                                        <a href="javascript:;" class="modifylevel" data-memberid="缘缘rupin" data-currlevel="0" data-status = "1" data-tracelog="crm_customer_membersystem_manage_changelevel">修改</a>
+                                </li>
+                                <li class="amount-count" style="width:12%;">
+                                                                                                                                                <a href="https://trade.1688.com/order/seller_order_list.htm?page=1&orderIdSearch=&productName=&buyerLoginId=缘缘rupin&tradeStatus=&startDate=&endDate=&quickDateSearchHit="
+                                       target="_blank" data-tracelog="crm_customer_membersystem_manage_trading">150元 / 1笔</a>
+                                </li>
+                                <li class="lasttime" style="width:14%;">
+                                    2017-01-12
+                                </li>
+                                <li class="source" style="width:10%">
+                                                                            交易成功
+                                                                    </li>
+                                <li class="operation" style="width:14%;"> <!--href="memDetail.htm?userId=1029750509"-->
+                                    <a class="member-detail" href="javascript:;"
+                                       data-memberid="缘缘rupin"
+                                       data-userid="IDX1m0bf04Vw77K5XzeabQNMPII4aCbP_5QOEeXUb2jCoZnukAcnTUatGTidFqlwFaeU"
+                                       data-tracelog="crm_customer_membersystem_manage_edit">查看详情</a>
+                                    <a class="deletemember" data-memberid="缘缘rupin"
+                                       href="javascript:;" data-tracelog="crm_customer_membersystem_manage_delete">删除</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="tag fd-clr">
+                            <span class="personal-tag-title">标签：</span>
+                            <div class="personal-tag-item">
+                                                                
+                                <div class="tagbox refly-dpl-input-container" >
+                                    <input type="text" class="refly-dpl-input result addtag"
+                                           placeholder="添加标签" readonly="readonly" data-memberid="缘缘rupin"
+                                    style="height:30px;width:162px;font-size:12px;">
+                                    <i class="refly-dpl-icon i-arrow-down addtag" style="color:#999;"></i>
+                                    </input>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                                <tr class="item member">
+                    <td colspan="6">
+                        <div class="info">
+                            <ul class="fd-clr">
+                                <li class="name" style="width:33%;">
+                                    <input class="search-item refly-dpl-checkbox" type="checkbox" name="search-item" data-memberid="liangliangff9999"/>
+                                    liangliangff9999
+                                    <!--
+                                    <a href="memDetail.htm?userId=1128768372" target="_blank" title="liangliangff9999" data-tracelog="crm_customer_membersystem_manage_id">
+                                    </a> -->
+                                                                                                            <a data-alitalk='{"id": "liangliangff9999","siteID":"cnalichn"}' class="alitalk" href="#" data-tracelog="crm_customer_membersystem_manage_wangwang"></a>
+                                </li>
+                                <li class="grade" style="width:15%;">
+                                                                            店铺客户
+                                                                        <a href="javascript:;" class="modifylevel" data-memberid="liangliangff9999" data-currlevel="0" data-status = "1" data-tracelog="crm_customer_membersystem_manage_changelevel">修改</a>
+                                </li>
+                                <li class="amount-count" style="width:12%;">
+                                                                                                                                                <a href="https://trade.1688.com/order/seller_order_list.htm?page=1&orderIdSearch=&productName=&buyerLoginId=liangliangff9999&tradeStatus=&startDate=&endDate=&quickDateSearchHit="
+                                       target="_blank" data-tracelog="crm_customer_membersystem_manage_trading">15420元 / 7笔</a>
+                                </li>
+                                <li class="lasttime" style="width:14%;">
+                                    2017-01-11
+                                </li>
+                                <li class="source" style="width:10%">
+                                                                            交易成功
+                                                                    </li>
+                                <li class="operation" style="width:14%;"> <!--href="memDetail.htm?userId=1128768372"-->
+                                    <a class="member-detail" href="javascript:;"
+                                       data-memberid="liangliangff9999"
+                                       data-userid="IDX16-Izn2Y1VNlNPcLllMu_VaF7L8tIKWXh_afgIylR74_0ATvsvQYeUcsYvTJRSJ8-"
+                                       data-tracelog="crm_customer_membersystem_manage_edit">查看详情</a>
+                                    <a class="deletemember" data-memberid="liangliangff9999"
+                                       href="javascript:;" data-tracelog="crm_customer_membersystem_manage_delete">删除</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="tag fd-clr">
+                            <span class="personal-tag-title">标签：</span>
+                            <div class="personal-tag-item">
+                                                                
+                                <div class="tagbox refly-dpl-input-container" >
+                                    <input type="text" class="refly-dpl-input result addtag"
+                                           placeholder="添加标签" readonly="readonly" data-memberid="liangliangff9999"
+                                    style="height:30px;width:162px;font-size:12px;">
+                                    <i class="refly-dpl-icon i-arrow-down addtag" style="color:#999;"></i>
+                                    </input>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                                <tr class="item member">
+                    <td colspan="6">
+                        <div class="info">
+                            <ul class="fd-clr">
+                                <li class="name" style="width:33%;">
+                                    <input class="search-item refly-dpl-checkbox" type="checkbox" name="search-item" data-memberid="ailinxz"/>
+                                    ailinxz
+                                    <!--
+                                    <a href="memDetail.htm?userId=2655976863" target="_blank" title="ailinxz" data-tracelog="crm_customer_membersystem_manage_id">
+                                    </a> -->
+                                                                                                            <a data-alitalk='{"id": "ailinxz","siteID":"cnalichn"}' class="alitalk" href="#" data-tracelog="crm_customer_membersystem_manage_wangwang"></a>
+                                </li>
+                                <li class="grade" style="width:15%;">
+                                                                            店铺客户
+                                                                        <a href="javascript:;" class="modifylevel" data-memberid="ailinxz" data-currlevel="0" data-status = "1" data-tracelog="crm_customer_membersystem_manage_changelevel">修改</a>
+                                </li>
+                                <li class="amount-count" style="width:12%;">
+                                                                                                                                                <a href="https://trade.1688.com/order/seller_order_list.htm?page=1&orderIdSearch=&productName=&buyerLoginId=ailinxz&tradeStatus=&startDate=&endDate=&quickDateSearchHit="
+                                       target="_blank" data-tracelog="crm_customer_membersystem_manage_trading">44482.5元 / 46笔</a>
+                                </li>
+                                <li class="lasttime" style="width:14%;">
+                                    2017-01-11
+                                </li>
+                                <li class="source" style="width:10%">
+                                                                            交易成功
+                                                                    </li>
+                                <li class="operation" style="width:14%;"> <!--href="memDetail.htm?userId=2655976863"-->
+                                    <a class="member-detail" href="javascript:;"
+                                       data-memberid="ailinxz"
+                                       data-userid="IDX1yPB78QC4-QrPtC_Oe7X7BLM9IwhgvlNwRXlgIci2vXIZyQu_d_sN0Cm9IPEYH42k"
+                                       data-tracelog="crm_customer_membersystem_manage_edit">查看详情</a>
+                                    <a class="deletemember" data-memberid="ailinxz"
+                                       href="javascript:;" data-tracelog="crm_customer_membersystem_manage_delete">删除</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="tag fd-clr">
+                            <span class="personal-tag-title">标签：</span>
+                            <div class="personal-tag-item">
+                                                                
+                                <div class="tagbox refly-dpl-input-container" >
+                                    <input type="text" class="refly-dpl-input result addtag"
+                                           placeholder="添加标签" readonly="readonly" data-memberid="ailinxz"
+                                    style="height:30px;width:162px;font-size:12px;">
+                                    <i class="refly-dpl-icon i-arrow-down addtag" style="color:#999;"></i>
+                                    </input>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                                    </tbody>
+
+        <tfoot>
+        </tfoot>
+    </table>
+
+
+    <div id="dynamic_paging" style="float:right;margin-top:30px;"></div>
+
+
+</div>
+
+	</div>
+</div>
+<!--
+
+        <div class="wp-paging-unit" data-paging-config='{"gotoPageUrl":""}'>
+        <ul data-sp="paging-a">
+            <li class="pagination">
+                                    <a href="javascript:;" class="pre-disabled"></a>
+                
+                                                                                                            
+                
+                
+                                    <a  class="current"  href="">1</a>
+                                    <a  href="">2</a>
+                                    <a  href="">3</a>
+                                    <a  href="">4</a>
+                                    <a  href="">5</a>
+                                    <a  href="">6</a>
+                
+                                    <a class="omit" href="">...</a>
+                    <a  href="">104</a>
+                
+                                    <a class="next" href="" >下一页</a>
+                            </li>
+            <li>共<em class="page-count">104</em>页/<em class="offer-count">1035</em>条 到<input type="text" autocomplete="off" maxlength="4" class="pnum">页</li>
+            <li><a href="#" class="goto-page" ><span class="btn-l"><em>确 定</em></span><span class="btn-r"></span></a></li>
+        </ul>
+    </div>
+    -->
+
+<!-- 分页 -->
+
+
+</div>
+    	    	</div>
+    </div>
+</div>
+
+                        </div>
+    </div>
+
+    <div class="app-crm_pageControl " 
+		data-app='{&quot;name&quot;:&quot;crm_pageControl&quot;,&quot;styles&quot;:[],&quot;title&quot;:&quot;crm_pageControl&quot;}' 
+		data-view-config='{&quot;renderTemplate&quot;:&quot;raw.vm&quot;,&quot;showTitle&quot;:true}' 
+		data-edit-config='{}' 
+		>
+	
+																																																<script src="https://assets.1688.com/??js/export/lib-lofty-without-fdev4.js,js/export/site-lofty.js,app/customer_memManager_new/1.0.0/view.js"></script>			</div>
+
+
+	    </body>
+</html>
+<!--is ok!-->
