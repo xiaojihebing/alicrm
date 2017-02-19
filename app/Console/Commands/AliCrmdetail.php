@@ -6,14 +6,14 @@ use Illuminate\Console\Command;
 use App\Crm;
 use phpQuery;
 
-class AliCrmls extends Command
+class AliCrmdetail extends Command
 {
     /**
      * The name and signature of the console command.
      *
      * @var string
      */
-    protected $signature = 'ali:crmls';
+    protected $signature = 'ali:crmd';
 
     /**
      * The console command description.
@@ -39,65 +39,53 @@ class AliCrmls extends Command
      */
     public function handle()
     {
-        $i = 1;
-        do {
-            // 近三个月订单
-            // $url = "https://trade.1688.com/order/seller_order_list.htm?page=".$i;
-            // 三个月前订单
-            $url = "https://customer.crm.1688.com/page/memberManager.htm?pageNum=".$i;
-            echo $url."\r\n";
-            $content = $this->get_html_content($url);
-            if (!$content) {
-                $content = $this->get_html_content($url);
-                echo "fail to get html \r\n";
-            }
-            $content = str_replace(["<!--","-->"],"",$content);
+        $customers = Crm::where('id', '>', 30)->where('id', '<', 1500)->get();
+        // $customers = Crm::where('id', 9)->get();
+        foreach($customers as $cus){
+            echo $cus->user_idx."\r\n";
+            $url = "https://customer.crm.1688.com/app/customer_memberDetail_new.htm";
+            $data = "site_id=customer&page_name=memberManager&page_type=memberManager&is_diy=false&userIdSecurity=".$cus->user_idx;
+            $content = $this->curl_post($url, $data);
+            // echo $content;
 
             // 写到文件 newfiles.txt
             // $myfile = fopen(dirname(__FILE__)."/newfile.txt", "w") or die("Unable to open file!");
-            // $content = iconv("GBK", "UTF-8//IGNORE", $this->get_html_content($url));
+            // $content = iconv("GBK", "UTF-8//IGNORE", $content);
             // fwrite($myfile, $content);
             // fclose($myfile);die;
 
             phpQuery::$defaultCharset='GBK';
             phpQuery::newDocumentHTML($content);
-            echo "start...\r\n";
-            
-            // 选择要采集的范围
-            $lists = pq('tr.item');
-            // echo count($lists)."\r\n".count(pq('tr.member'));die;
-            $count = 0;
-            foreach($lists as $li){                
-                $buyer_wangwang = pq($li)->find('input.search-item')->attr('data-memberid');
-                // echo $buyer_wangwang."\r\n";
-                if (!Crm::where('buyer_wangwang', $buyer_wangwang)->first()) {
-                    $user_id = pq($li)->find('li:eq(0) a:eq(0)')->attr('href');
-                    $user_idx = pq($li)->find('a.member-detail')->attr('data-userid');
-                    $trade_amount = trim(pq($li)->find('li:eq(2)')->text());
-                    $trade_last = trim(pq($li)->find('li:eq(3)')->text());
-                    $trade_origin = trim(pq($li)->find('li:eq(4)')->text());
-                    // echo $order_id."\r\n".$amount."\r\n".$order_time."\r\n".$status."\r\n".$status2;die;
-                    $arr = explode('/', str_replace(' ','',$trade_amount));
-                    echo $trade_amount."\r\n";
 
-
-                    $cus = new Crm;
-                    $cus->user_id = str_replace('memDetail.htm?userId=', '', $user_id);
-                    $cus->user_idx = $user_idx;
-                    $cus->buyer_wangwang = $buyer_wangwang;
-                    $cus->trade_amount = $arr[0];
-                    $cus->trade_count = $arr[1];
-                    $cus->trade_last = $trade_last;
-                    $cus->trade_origin = $trade_origin;
-                    $cus->save();
-                    $count++;
-                }
+            $buyer_phone = pq('div.second-line:eq(0) span:eq(1)')->text();
+            $buyer_name = pq('span.name-title')->text();
+            $buyer_companyname = pq('div.first-part:eq(0) span')->attr('title');
+            if (!$buyer_companyname) {
+                $buyer_companyname = "无公司名";
             }
-            echo $count."\r\n";
-            sleep(2);
-            $i++;
-        } while ( count($lists) == 10);
+            $buyer_email = pq('div.second-part:eq(1) span:eq(1)')->text();
+            $buyer_area = pq('div.first-part:eq(2) span:eq(2)')->text();
+            $buyer_address = pq('div.second-part:eq(2) span:eq(1)')->text();
+            $taobao_seller = pq('div.base-line:eq(6) a')->attr('href');
+            if (!$taobao_seller) {
+                $taobao_seller = "否";
+            }
 
+            // echo $buyer_mobilephone."\r\n".$buyer_indexpage."\r\n".$buyer_companyname."\r\n".$buyer_email."\r\n".$buy_area."\r\n".$buy_address;
+
+            $cus->buyer_phone = $buyer_phone;
+            $cus->buyer_name = str_replace([' ','\t','\r','\n'], '', $buyer_name);
+            $cus->buyer_companyname = $buyer_companyname;
+            $cus->buyer_email = str_replace(' ', '', $buyer_email);
+            $cus->buyer_area = str_replace(' ', '', $buyer_area);
+            $cus->buyer_address = $buyer_address;
+            $cus->taobao_seller = $taobao_seller;
+            $cus->save();
+
+            echo "This is".$cus->id."\r\n";
+            sleep(3);
+
+        }
     }
 
     public function get_html_content($url)

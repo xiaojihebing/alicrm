@@ -21,6 +21,7 @@ Route::group(['middleware' => 'auth', 'namespace' => 'Admin', 'prefix' => 'admin
     Route::get('/', 'HomeController@index');
     // Route::get('products', 'ProductController@index');
     Route::resource('trade', 'AlitradeController');
+    Route::resource('crm', 'AlicrmController');
 });
 
 Route::get('/trade/{id}', 'OrderdetailController@index');

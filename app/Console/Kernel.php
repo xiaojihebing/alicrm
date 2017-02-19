@@ -17,6 +17,7 @@ class Kernel extends ConsoleKernel
         Commands\AlibabaTrade::class,
         Commands\AlibabaOrder::class,
         Commands\AliCrmls::class,
+        Commands\AliCrmdetail::class,
     ];
 
     /**
